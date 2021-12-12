@@ -1,0 +1,27 @@
+Link para download do Git: https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Configuração:
+git config --global user.name "JonasPalhanos"
+git config --global user.email "jonaspalhanos@hotmail.com"
+
+Iniciando um Repositório:
+git init
+
+Adicionando Itens
+git add .\README.md
+
+Comitando:
+git commit -m "Adicionado arquivo readme.md"
+
+Ligando os Repositórios:
+git remote add origin https://github.com/JonasPalhanos/dio-desafio-github
+
+Enviando os Arquivos:
+git push -u origin master
+
+Atualizando os arquivos locais:
+git pull
+
+Clonando um repositório:
+git clone https://github.com/JonasPalhanos/dio-desafio-github
